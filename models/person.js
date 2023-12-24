@@ -1,0 +1,18 @@
+// models/person.js
+class Person {
+    constructor({ PARTY_ID, SALUTATION, FIRST_NAME, MIDDLE_NAME, LAST_NAME, GENDER, BIRTH_DATE, MARITAL_STATUS_ENUM_ID, EMPLOYMENT_STATUS_ENUM_ID, OCCUPATION }) {
+      this.PARTY_ID = PARTY_ID;
+      this.SALUTATION = SALUTATION;
+      this.FIRST_NAME = FIRST_NAME;
+      this.MIDDLE_NAME = MIDDLE_NAME;
+      this.LAST_NAME = LAST_NAME;
+      this.GENDER = GENDER;
+      this.BIRTH_DATE = BIRTH_DATE;
+      this.MARITAL_STATUS_ENUM_ID = MARITAL_STATUS_ENUM_ID;
+      this.EMPLOYMENT_STATUS_ENUM_ID = EMPLOYMENT_STATUS_ENUM_ID;
+      this.OCCUPATION = OCCUPATION;
+    }
+  }
+  
+  module.exports = Person;
+  
